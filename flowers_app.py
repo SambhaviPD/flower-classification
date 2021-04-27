@@ -32,7 +32,9 @@ classifyapi_url = "http://139.59.13.253:8008/predict"
 
 if uploaded_file is None:
 	st.subheader('Please upload an image first and then click Classify!')
-
+else:
+	uploaded_file="https://github.com/SambhaviPD/flower-classification/tree/main/images/rose.jpg"
+	
 m = MultipartEncoder(
 	fields={'input_image': ('filename', uploaded_file, 'image/jpeg')}
 )
