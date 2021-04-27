@@ -43,7 +43,7 @@ response = requests.post(classifyapi_url,
 					'Content-Type': m.content_type
 				})
 if response is None:
-	st.subheader('Classify API is down. Please try later!'
+	st.subheader('Classify API is down. Please try later!')
 else:
 	output = response.json()
 
