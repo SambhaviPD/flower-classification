@@ -42,8 +42,8 @@ expander.write('A total of 3670 images is present, approximately 700-800 images 
 expander.write('50 epochs were run for training the dataset. Weights and Biases was used for experiment tracking.')
 expander.write('80% of images was used for training, 10% for validation and 5% for testing. A training accuracy of 92% was reached.')
 expander.write('This is how the confusion matrix looks like:')
-image = Image.open('https://github.com/SambhaviPD/flower-classification/tree/main/images/confusion-matrix.jpg')
-expander.image(image, width=500)
+image_url = 'https://github.com/SambhaviPD/flower-classification/tree/main/images/confusion-matrix.jpg'
+expander.image(image_url, width=500)
 expander.write('FastAPI was used to invoke the actual prediction of uploaded flower used the weights trained as explained above. That piece of code is deployed in another cloud server.')
 
 st.subheader('Upload a flower image')
