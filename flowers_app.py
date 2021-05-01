@@ -51,7 +51,7 @@ expander.write('FastAPI was used to invoke the actual prediction of uploaded flo
 st.subheader('Upload a flower image')
 uploaded_file = st.file_uploader(label="The models are trained to classify sunflower, rose, dandelion, tulip and daisy only.", 	type=['png', 'jpg', 'jpeg'], accept_multiple_files=False, key="None", help="Only .png, .jpg, and .jpeg files are supported")
 
-classifyapi_url = "http://139.59.13.253:8008/predict"
+classifyapi_url = "https://desolate-dawn-72801.herokuapp.com/predict"
 
 if uploaded_file is not None:
 	m = MultipartEncoder(
