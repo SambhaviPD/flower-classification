@@ -4,4 +4,4 @@ Using Streamlit for the user interface and Squeezenet as the deep learning model
 
 FastAPI is used to do the actual prediction which uses transfer learning on a pre-trained squeezenet model. Feature extraction is used.
 
-Check out link for my first streamlit app: https://share.streamlit.io/sambhavipd/flower-classification/main/flowers_app.py
+My first streamlit app: https://share.streamlit.io/sambhavipd/flower-classification/main/flowers_app.py
